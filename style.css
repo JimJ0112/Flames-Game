@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: courier;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    background:
+    url("images/download.png"),
+    linear-gradient(to right, rgb(235, 123, 184) , rgb(48, 13, 143));
+    background-size: contain;
+    background-position: center;
+}
+
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    padding: 40px, 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    
+}
+.container .form-content{
+    height: 45%;
+    width: 50%;
+    float: right;
+    padding-top: 10%;
+    text-align: center;
+    
+}
+
+
+.container .banner{
+    height: 20%;
+    width: 10%;
+    float: left;
+    
+    
+}
+
+
+#bannerimg{
+    height: 500%;
+    width: 500%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.icon{
+    height: 50px;
+    
+}
+.inputbox{
+    height: 40px;
+    width: 80%;
+    border-bottom: 2px solid purple;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    
+}
+
+.loginform{
+    color: blueviolet;
+    font-family: "Poppin" ,sans-serif;
+    font-weight: bold;
+}
+
+.button{
+    background-image: linear-gradient(to right, rgb(235, 123, 184) , rgb(204, 15, 204));
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    cursor: pointer;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.iconsubmit i{
+    position: absolute;
+    left: 300px;
+            top: 10px;
+    
+}
+.iconsubmit {
+    position: relative;
+    
+}
+.fa-fire-flame-curved{
+    color: #B589D6;
+    font-size: 30px;
+}
